@@ -189,6 +189,33 @@
       .grid { grid-template-columns: 1fr; }
       .chapter-grid { grid-template-columns: 1fr; }
     }
+
+    @media (max-width: 768px) {
+      .wrap { padding: 12px; }
+      .top { align-items: stretch; }
+      .title { font-size: 24px; }
+      .back { text-align: center; width: 100%; }
+      .card { padding: 12px; border-radius: 12px; }
+      .row { flex-direction: column; }
+      .field { width: 100%; min-width: 0; }
+      .btn { width: 100%; }
+      .chapter-head { font-size: 18px; padding: 12px; }
+      .chapter-body { padding: 10px; }
+      .topic-title { font-size: 14px; }
+      .mode-grid { grid-template-columns: 1fr; }
+      .q { font-size: 18px; }
+      table { font-size: 13px; }
+      th, td { padding: 8px 6px; }
+      .full { overflow-x: auto; }
+    }
+
+    @media (max-width: 480px) {
+      .wrap { padding: 10px; }
+      .title { font-size: 21px; }
+      h2 { font-size: 15px; }
+      .pill { width: 100%; }
+      .q { font-size: 16px; }
+    }
   </style>
 </head>
 <body>
